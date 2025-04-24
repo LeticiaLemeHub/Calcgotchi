@@ -4,7 +4,7 @@ Uma calculadora com personalidade!
 A **Calcgotchi** é uma calculadora fofa que expressa emoções com base no resultado da operação.  
 Desenvolvida como forma de explorar lógica de programação e desenhar no `<canvas>` com JavaScript.
 
-![preview da calcgotchi]([assets/preview.gif](https://calcgotchi.vercel.app/)
+![preview da calcgotchi]([assets/preview.gif](https://calcgotchi.vercel.app/))
 
 ---
 
