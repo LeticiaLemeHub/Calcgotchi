@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CalcGotchi</title>
+</head>
+<body>
+    <main class="calcgotchi">
+        <!--vai desenhar o rostinho na calculadora-->
+        <canvas id="carinha" width="250" height="100"></canvas>
+        <input type="text" id="visor" disabled>
+        <div class="botoes">
+            <button  onclick="pressionar('7')">7</button>
+            <button  onclick="pressionar('8')">8</button>
+            <button  onclick="pressionar('9')">9</button>
+            <button  onclick="pressionar('/')">/</button>
+            <button  onclick="pressionar('4')">4</button>
+            <button  onclick="pressionar('5')">5</button>
+            <button  onclick="pressionar('6')">6</button>
+            <button  onclick="pressionar('*')">*</button>
+            <button  onclick="pressionar('1')">1</button>
+            <button  onclick="pressionar('2')">2</button>
+            <button  onclick="pressionar('3')">3</button>
+            <button  onclick="pressionar('-')">-</button>
+            <button  onclick="pressionar('0')">0</button>
+            <button  onclick="pressionar('.')">.</button>
+            <button  onclick="calcular()">=</button>
+            <button  onclick="pressionar('+')">+</button>
+            <button class="limpar" onclick="limpar()">Limpar</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Leticia</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
